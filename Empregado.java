@@ -42,4 +42,30 @@ public class Empregado{
     public void setTipo(int tipo) {
         this.tipo = tipo;
     }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public double getComissao() {
+        return comissao;
+    }
+
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    
 }
